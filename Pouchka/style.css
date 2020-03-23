@@ -1,0 +1,103 @@
+
+html{
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+
+
+}
+
+body{
+    background-color: #efefef;
+    margin: 0 0;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    padding: 1.5%; /*Same as width, sets height */
+    margin: 10px; /* (100-32*3)/2 */
+    text-align: center;    
+    
+
+    border: 4px solid;
+    border-radius: 10px;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+    .border-blue{
+        border-color: #009BFF;
+    }
+    .border-violet{
+        border-color: #A900FF;
+    }
+    .border-red{
+        border-color: #F31C1C;
+    }
+    .border-green{
+        border-color: #00C480;
+    }
+    .border-pink{
+        border-color: #FF0065;
+    }
+    .border-turquoise{
+        border-color: #00FCFF;
+    }
+    .border-yellow{
+        border-color: #ffcc00;
+    }
+    .border-orange{
+        border-color: #FF8B00;
+    }
+
+.background-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 8%;
+    height: 150px;
+}
+
+.background-pouchka{
+    background-image: url(images/pouchka.png);
+}
+.background-gui{
+    background-image: url(images/gui.png);
+}
+.background-seb{
+    background-image: url(images/seb.png);
+}
+.background-mouchka{
+    background-image: url(images/mouchka.png);
+}
+.background-ju{
+    background-image: url(images/ju.png);
+}
+.background-django{
+    background-image: url(images/django.png);
+}
+
+
+.icon{ 
+    margin: 10px;
+ }
+
+.label{
+    opacity: 0.5;
+    color: #44454B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
